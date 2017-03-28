@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>677</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Biblioteka</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>677</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuKonto">
+    <property name="title">
+     <string>Konto</string>
+    </property>
+    <addaction name="actionInformacje_o_koncie"/>
+    <addaction name="separator"/>
+    <addaction name="actionOd_wie_po_czenie"/>
+    <addaction name="actionWyloguj"/>
+    <addaction name="actionWyloguj_i_wyjd"/>
+   </widget>
+   <widget class="QMenu" name="menuDane">
+    <property name="title">
+     <string>Dane</string>
+    </property>
+    <addaction name="actionKsi_ki_3"/>
+    <addaction name="actionCzytelnicy"/>
+    <addaction name="separator"/>
+    <addaction name="actionKonta"/>
+   </widget>
+   <widget class="QMenu" name="menuAkcje">
+    <property name="title">
+     <string>Akcje</string>
+    </property>
+    <addaction name="actionPo_ycz_ksi_ke"/>
+    <addaction name="actionOddaj_ksi_ke"/>
+   </widget>
+   <addaction name="menuKonto"/>
+   <addaction name="menuDane"/>
+   <addaction name="menuAkcje"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionInformacje_o_koncie">
+   <property name="text">
+    <string>Informacje o koncie</string>
+   </property>
+  </action>
+  <action name="actionWyloguj">
+   <property name="text">
+    <string>Zaloguj</string>
+   </property>
+  </action>
+  <action name="actionOd_wie_po_czenie">
+   <property name="text">
+    <string>Odśwież połączenie</string>
+   </property>
+  </action>
+  <action name="actionWyloguj_i_wyjd">
+   <property name="text">
+    <string>Wyjdź</string>
+   </property>
+  </action>
+  <action name="actionAutorzy_2">
+   <property name="text">
+    <string>Autorzy</string>
+   </property>
+  </action>
+  <action name="actionKsi_ki_3">
+   <property name="text">
+    <string>Książki</string>
+   </property>
+  </action>
+  <action name="actionCzytelnicy_3">
+   <property name="text">
+    <string>Czytelnicy</string>
+   </property>
+  </action>
+  <action name="actionKonta">
+   <property name="text">
+    <string>Konta</string>
+   </property>
+  </action>
+  <action name="actionPo_ycz_ksi_ke">
+   <property name="text">
+    <string>Pożycz książke</string>
+   </property>
+  </action>
+  <action name="actionOddaj_ksi_ke">
+   <property name="text">
+    <string>Oddaj książke</string>
+   </property>
+  </action>
+  <action name="actionCzytelnicy">
+   <property name="text">
+    <string>Czytelnicy</string>
+   </property>
+  </action>
+  <action name="actionKto_zalega_z_ksi_k">
+   <property name="text">
+    <string>Kto zalega z książką ?</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
